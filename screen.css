@@ -24,20 +24,23 @@ h4 {
     color: var(--primary-text-color);
 }
 
-.container {
-    border-width: 1.5px;
+fieldset {
+    border-width: 1px;
     border-style: solid;
     border-color: #FFFBF4;
     border-radius: 33px;
+}
+
+legend {
+    margin-left: 50px;
+    font-family: "Poller One", serif;
+    color: var(--primary-text-color); 
 }
 
 .image-grid {
     --gap: 16px;
     --num-cols: 6;
     --row-height: 300px;
-    margin: 0 auto;
-    width: 1137px;
-    height: 530px;
 
 box-sizing: border-box;
 padding: var(--gap);
@@ -63,7 +66,7 @@ gap: var(--gap);
 }
 
 body {
-    margin: 0;
+    margin-top: 100px;
     background-image: url(MacBook\ Air\ -\ 3.jpg);
     background-size: 100% 100%;
     min-height: 100vh
