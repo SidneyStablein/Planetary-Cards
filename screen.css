@@ -5,23 +5,22 @@
     --primary-text-color: #FFE971;
 }
 
-h1 {
-   font-family: "Poller One", serif;
-   color: var(--primary-text-color);
-}
-h2 {
+.mono {
     font-family: "Monofett", monospace;
     color: var(--primary-text-color);
 }
 
-h3 {
-    font-family: font-family: "Mr Dafoe", cursive;
+h2 {
+    font-family:"Mr Dafoe", cursive;
     color: var(--primary-text-color);
-}
-
-h4 {
-    font-family: "Nova Mono", monospace;
-    color: var(--primary-text-color);
+    font-size: 48px;
+    width: 20px;
+    height: 35px;
+    font-weight: 400;
+    color: #0D51FF;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    rotate: -14deg;
 }
 
 fieldset {
@@ -34,7 +33,8 @@ fieldset {
 legend {
     margin-left: 50px;
     font-family: "Poller One", serif;
-    color: var(--primary-text-color); 
+    color: var(--primary-text-color);
+    font-size: 30px; 
 }
 
 .image-grid {
