@@ -1,35 +1,27 @@
 /* Add screen styles below */
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Mr+Dafoe&family=Nova+Mono&family=Poller+One&display=swap');
+
+:root {
+    --primary-text-color: #FFE971;
+}
+
 h1 {
-    .poller-one-regular {
-        font-family: "Poller One", serif;
-        font-weight: 400;
-        font-style: normal;
-        color: #FFE971;
-      }
+   font-family: "Poller One", serif;
+   color: var(--primary-text-color);
 }
 h2 {
-    .monofett-regular {
-        font-family: "Monofett", monospace;
-        font-weight: 400;
-        font-style: normal;
-        color: #FFE971;
-      }
+    font-family: "Monofett", monospace;
+    color: var(--primary-text-color);
 }
 
 h3 {
-    .mr-dafoe-regular {
-        font-family: "Mr Dafoe", cursive;
-        font-weight: 400;
-        font-style: normal;
-      }
+    font-family: font-family: "Mr Dafoe", cursive;
+    color: var(--primary-text-color);
 }
 
 h4 {
-    .nova-mono-regular {
-        font-family: "Nova Mono", monospace;
-        font-weight: 400;
-        font-style: normal;
-      }
+    font-family: "Nova Mono", monospace;
+    color: var(--primary-text-color);
 }
 
 body {
